@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(version: 2020_04_11_174320) do
     t.integer "section_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "video"
     t.integer "row_order"
     t.index ["row_order"], name: "index_lessons_on_row_order"
     t.index ["section_id"], name: "index_lessons_on_section_id"
