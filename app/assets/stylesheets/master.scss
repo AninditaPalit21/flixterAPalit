@@ -2,6 +2,7 @@
 
 .navbar {
     font-family: "Helvetica Neue", Helvetica;
+    font-size: 22px;
     font-weight:200;
     box-shadow: 0px 1px 3px #2a2a2a;
     background: image_url('beige-tiles.png');
@@ -11,6 +12,7 @@
 .navbar-inverse a.navbar-brand {
     font-family: "Helvetica Neue", Helvetica;
     font-weight: 200;
+    font-size: 22px;
     color: rgb(12, 17, 19);
 }
 
@@ -37,12 +39,14 @@ h1, h2, h3, h4, h5, h6, .navbar {
 .frosty h1 {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
+  font-size: 24px;
   text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
 }
 
 .frosty h2 {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
+  font-size: 24px;
   text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
 }
 
@@ -102,7 +106,7 @@ body {
   color: white;
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
-  font-size: 15px;
+  font-size: 24px;
 }
 
 .lesson a b {
@@ -110,3 +114,36 @@ body {
   font-size: 25px;
 }
 
+u1 {
+  list-style-type: none;
+}
+
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+  margin: 20px;
+}
+
+u1 .header .fa {
+  font-size: 25px;
+}
+
+.lessons li {
+  background: black;
+  color: white;
+  margin: 10px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.lessons li b {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.lessons li p {
+  margin: 0;
+}
