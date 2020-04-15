@@ -11,3 +11,4 @@ class Lesson < ApplicationRecord
         lesson = section.lessons.where("row_order > ?", self.row_order).rank(:row_order).first
         return lesson
     end
+end
