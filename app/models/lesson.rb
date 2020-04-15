@@ -9,6 +9,5 @@ class Lesson < ApplicationRecord
 
     def next_lesson
         lesson = section.lessons.where("row_order > ?", self.row_order).rank(:row_order).first
-    end
         return lesson
     end
