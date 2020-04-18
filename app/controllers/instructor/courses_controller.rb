@@ -12,6 +12,7 @@ class Instructor::CoursesController < ApplicationController
         if @course.valid?
             redirect_to instructor_course_path(@course)
         else
+            
             render :new, status: :unprocessable_entity
         end
     end
@@ -29,9 +30,9 @@ class Instructor::CoursesController < ApplicationController
     end
   end
 
-  helper_method :current_course
+  helper_method :course
   def current_course
-    @current_course ||= Course.find(params[:id])
+    @course ||= Course.find(params[:id])
   end
 
   def course_params
