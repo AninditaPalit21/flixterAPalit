@@ -3,7 +3,7 @@ class Course < ApplicationRecord
 
   belongs_to :user
   has_many :sections
-  belongs_to :images
+  #belongs_to :images
 
   validates :title, presence: true
   validates :description, presence: true

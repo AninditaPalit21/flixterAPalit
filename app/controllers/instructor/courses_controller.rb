@@ -31,12 +31,12 @@ class Instructor::CoursesController < ApplicationController
     end
   end
 
-  helper_method :course
+  helper_method :current_course
   def current_course
-    @course ||= Course.find(params[:id])
+    @current_course ||= Course.find(params[:id])
   end
 
   def course_params
-    params.require(:course).permit(:title, :description, :cost, :image, :name)
+    params.require(:course).permit(:title, :description, :cost, :image)
   end
 end
