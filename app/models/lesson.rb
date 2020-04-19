@@ -12,5 +12,3 @@ class Lesson < ApplicationRecord
         return lesson
     end
 end
-  
-</div>
