@@ -5,7 +5,7 @@
     font-size: 22px;
     font-weight:200;
     box-shadow: 0px 1px 3px #2a2a2a;
-    background: image_url('beige-tiles.png');
+    background: image_url('weather.png');
 
 }
 
@@ -13,7 +13,7 @@
     font-family: "Helvetica Neue", Helvetica;
     font-weight: 200;
     font-size: 22px;
-    color: rgb(12, 17, 19);
+    color: rgb(48, 193, 250);
 }
 
 
@@ -91,19 +91,19 @@ body {
 }
 
 .lesson {
-  background-color: black;
+  background-color: rgb(126, 191, 221);
   margin-top: 10px;
   height: 130px;
 }
 
 .section {
   border: 1px solid;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  border-color: #e4e4e4 #bebebd #99639b #e4e4e4;
   padding: 20px;
 }
 
 .lesson a {
-  color: white;
+  color: rgb(120, 170, 218);
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
   font-size: 24px;
@@ -120,7 +120,7 @@ u1 {
 
 .section-li {
   border: 1px solid;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  border-color: #e4e4e4 #304f88 #bebebd #e4e4e4;
   padding: 20px;
   margin: 20px;
 }
