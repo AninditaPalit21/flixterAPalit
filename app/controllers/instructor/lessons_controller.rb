@@ -42,5 +42,3 @@ class Instructor::LessonsController < ApplicationController
     params.require(:lesson).permit(:title, :subtitle, :video, :row_order_position)
   end
 end
-  
-</div>
