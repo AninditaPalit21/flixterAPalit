@@ -40,6 +40,7 @@
     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#newSectionModal">
       Add a new section...
     </button>
+    <%= link_to 'View course as student', course_path(current_course), class: 'btn btn-warning float-right btn-lg' %>
   </div>
 
   <ul class="sections">
@@ -50,7 +51,7 @@
           <%= section.title %>
         </div>
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary btn-lg float-right new-lesson-button" data-toggle="modal" data-target="#newLessonModal" data-lesson-url="<%= instructor_section_lessons_path(section) %>">        </button>
+        <button type="button" class="btn btn-primary btn-lg float-right new-lesson-button" data-toggle="modal" data-target="#newLessonModal" data-lesson-url="<%= instructor_section_lessons_path(section) %>"> Add a New Lesson </button>
 
         <br class="clr" />
         <br class="clr" />
